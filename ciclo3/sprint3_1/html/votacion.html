@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Votaciones</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <script type="text/javascript" src="../js/votaciones.js"></script>
+        
+    </head>
+    <body>
+        <header id="encabezado">
+            <h1>Eleccion de candidato 2022</h1>
+        </header>
+
+        <div>
+
+            <table align='center'>
+                <tr>
+                    <th>candidatos</th>
+                    <th>Elige a tu candidato</th>
+                    <th>candidatos</th>
+                    <th>Elige a tu candidato</th>
+                </tr>
+                <tr>
+                    <td> <img src="../img/juan.gif" class='imgRedonda1' ></td>
+                    <td><input type="button" class="btn btn-secondary" value="Juan Isaza" onclick="javascript:VJI();"></td>
+                    <td><img src="../img/antonia.gif" class='imgRedonda1' ></td>
+                    <td><input type="button" class="btn btn-secondary" value="Andrea Monotoya" onclick="javascript:VAM();"></td>
+                </tr>
+                <tr>
+                    <td><img src="../img/andrea.gif" class='imgRedonda1'></td>
+                    <td><input type="button" class="btn btn-secondary" value="Antonia Bustamante" onclick="javascript:VAB();"></td>
+                    <td><img src="../img/isabel.gif" class='imgRedonda1'></td>
+                    <td><input type="button" class="btn btn-secondary" value="Isabel Agudelo" onclick="javascript:VIA();"></td>
+                </tr>                     
+            </table>            
+        </div>
+
+        <div id="pie">
+            <hr>
+            &#169; Copiright Votaciones 2022 Unab
+        </div>
+    </body>
+</html>

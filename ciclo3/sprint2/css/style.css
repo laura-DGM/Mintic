@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-family: cursive;}
+table{
+    text-align: center;
+    color: aliceblue;
+    font-weight: 200;
+    }
+
+body{
+    background-color: rgb(65, 200, 202);  
+}
+.Cajon{
+    background-color: rgb(163, 254, 255 );
+    font-weight: 200; 
+    margin-top: 2%;
+}
+p{ margin-left: 10%;
+    margin-right: 10%;}
+.informacion{
+    align-content: center;
+    text-align: center;
+    margin-left:    4%;
+}
+.imgRedonda {
+    width:250px;
+    height:250px;
+    border-radius:150px;
+    border:9px solid #7DF2F4 ;
+}
