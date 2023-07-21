@@ -1,0 +1,10 @@
+codigo=int(input())
+producto=str(input())
+cantidad=float(input())
+valor_U=float(input())
+valor_cantidad=valor_U*cantidad
+valor_iva=(valor_U+(valor_U*19)/100)*cantidad
+print(codigo)
+print(producto)
+print(valor_cantidad)
+print(valor_iva)
