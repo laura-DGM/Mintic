@@ -8,38 +8,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
-        <script >
-            via = 0;
-            vam = 0;
-            vab = 0;
-            vji = 0;
-            function VIA() {
-                via++;
-                alert("votaste por Isabel Agudelo " );
-                document.getElementById('pantalla0').value = via;
-                window.history.back();
-            }
-            function VAM() {
-                vam++;
-                alert("votaste por Andrea Monotoya" );
-                document.getElementById('pantalla1').value = vam;
-                window.history.back();
-
-            }
-            function VAB() {
-                vab++;
-                alert("votaste por Antonia Bustamante" );
-                document.getElementById('pantalla2').value = vab;
-                window.history.back();
-
-            }
-            function VJI() {
-                vji++;
-                alert("votaste por Juan Isaza");
-                document.getElementById('pantalla3').value = vji;
-                window.history.back();
-            }
-        </script>
         <title>Inicio</title>
     </head>
     <body>
@@ -168,15 +136,15 @@
                 </tr>
                 <tr>
                     <td> <img src="img/juan.gif" class='imgRedonda1' ></td>
-                    <td><input type="text" id='pantalla3'></td>
+                    <td><p id="pantalla3" class="fondo">0</p></td>
                     <td><img src="img/antonia.gif" class='imgRedonda1' ></td>
-                    <td><input type="text" id='pantalla1'></td>
+                    <td><p id="pantalla1" class="fondo">0</p></td>
                 </tr>
                 <tr>
                     <td><img src="img/andrea.gif" class='imgRedonda1'></td>
-                    <td><input type="text" id='pantalla2'></td>
+                    <td><p id="pantalla2" class="fondo">0</p></td>
                     <td><img src="img/isabel.gif" class='imgRedonda1'></td>
-                    <td><input type="text" id='pantalla0'></td>
+                    <td><p id="pantalla0" class="fondo">0</p></td>
                 </tr>                     
             </table> 
         </div>
@@ -185,4 +153,5 @@
             &#169; Copiright Votaciones 2022 Unab
         </div>
     </body>
+    <script src="js/Funciones.js"></script>
 </html>
